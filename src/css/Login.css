@@ -1,0 +1,171 @@
+.login-page-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 7vh;
+  position: absolute;
+  top: 50%;
+}
+
+.login-background {
+  align-items: center;
+  background-image: url('../images/loginBackground.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.img-logo {
+  background-image: url('../images/logoHungry.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  height: 30vh;
+  overflow: hidden;
+  position: absolute;
+  top: 25vh;
+  width: 97.22vw;
+}
+
+.inputs-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-input {
+  background-color: rgba(255, 255, 255, 0.542);
+  border: none;
+  border-color: transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  color: rgb(21, 20, 20);
+  margin: 5px;
+  width: 60vw;
+}
+
+.login-input::placeholder {
+  color: dimgray;
+  text-align: center;
+  text-shadow: 0.1px -0.1px 0 white , -1.5px 1.5px 0 white , 0.1px 0.1px 0 white;
+}
+
+.login-input:focus {
+  border-color: #fcdc36;
+  box-shadow: 0 0 5px #fcdc36;
+  outline: none;
+}
+
+.login-text {
+  color: #260f4b;
+  font-size: 4vh;
+  text-transform: uppercase;
+}
+
+.login-submit-btn:enabled {
+  background-color: #fcdc36;
+  border: none;
+  border-radius: 2.78vw;
+  width: 60vw;
+}
+
+.login-submit-btn:disabled {
+  background-color: #484646a4;
+  border-radius: 2.78vw;
+  color: white;
+  width: 60vw;
+}
+
+@media screen and ( max-width : 360px ) {
+
+  .login-page-div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    position: absolute;
+    top: 50%;
+  }
+
+  .login-background {
+    align-items: center;
+    background-image: url('../images/loginBackground.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  .img-logo {
+    background-image: url('../images/logoHungry.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    height: 30vh;
+    overflow: hidden;
+    position: absolute;
+    top: 25vh;
+    width: 97.22vw;
+  }
+
+  .inputs-div {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .login-input {
+    background-color: rgba(255, 255, 255, 0.542);
+    border: none;
+    border-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    color: rgb(21, 20, 20);
+    margin: 5px;
+    width: 60vw;
+  }
+
+  .login-input::placeholder {
+    color: dimgray;
+    text-align: center;
+    text-shadow: 0.1px -0.1px 0 white , -1.5px 1.5px 0 white , 0.1px 0.1px 0 white;
+  }
+
+  .login-input:focus {
+    border-color: #fcdc36;
+    box-shadow: 0 0 5px #fcdc36;
+    outline: none;
+  }
+
+  .login-text {
+    color: #260f4b;
+    font-size: 4vh;
+    text-transform: uppercase;
+  }
+
+  .login-submit-btn:enabled {
+    background-color: #fcdc36;
+    border: none;
+    border-radius: 2.78vw;
+    width: 60vw;
+  }
+
+  .login-submit-btn:disabled {
+    background-color: #484646a4;
+    border-radius: 2.78vw;
+    color: white;
+    width: 60vw;
+  }
+}
+

@@ -1,0 +1,257 @@
+@media screen and ( max-width : 360px ) {
+
+  .category-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .all-drink-btn-filter {
+    align-items: flex-end;
+    background-color: transparent;
+    background-image: url('../images/allDrink.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 95% 75%;
+    border: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    color: rgb(75, 75, 75);
+    display: flex;
+    font-size: 0.5rem;
+    height: 50px;
+    justify-content: center;
+    margin: 0 2px;
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.3);
+    width: 50px;
+  }
+
+  [ class = 'Ordinary Drink-btn-filter' ] {
+    align-items: flex-end;
+    background-color: transparent;
+    background-image: url('../images/ordinaryDrink.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 95% 75%;
+    border: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-size: 0.5rem;
+    height: 50px;
+    justify-content: center;
+    margin: 0 2px;
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.3);
+    width: 50px;
+  }
+
+  .Cocktail-btn-filter {
+    align-items: flex-end;
+    background-color: transparent;
+    background-image: url('../images/cocktail.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 95% 70%;
+    border: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-size: 0.5rem;
+    height: 50px;
+    justify-content: center;
+    margin: 0 2px;
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.3);
+    width: 50px;
+  }
+
+  .Shake-btn-filter {
+    align-items: flex-end;
+    background-color: transparent;
+    background-image: url('../images/shake.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 95% 75%;
+    border: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-size: 0.5rem;
+    height: 50px;
+    justify-content: center;
+    margin: 0 2px;
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.3);
+    width: 50px;
+  }
+
+  [ class = 'Other / Unknown-btn-filter' ] {
+    align-items: flex-end;
+    background-color: transparent;
+    background-image: url('../images/otherDrink.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 95% 70%;
+    border: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-size: 0.5rem;
+    height: 50px;
+    justify-content: center;
+    margin: 0 2px;
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.3);
+    width: 50px;
+  }
+
+  .Cocoa-btn-filter {
+    align-items: flex-end;
+    background-color: transparent;
+    background-image: url('../images/cocoaDrink.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 95% 75%;
+    border: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-size: 0.5rem;
+    height: 50px;
+    justify-content: center;
+    margin: 0 2px;
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.3);
+    width: 50px;
+  }
+}
+
+@media screen and ( min-width : 361px ), screen and ( min-height : 641px ) {
+
+  .category-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .all-drink-btn-filter {
+    align-items: flex-end;
+    background-color: transparent;
+    background-image: url('../images/allDrink.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 95% 75%;
+    border: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    color: rgb(75, 75, 75);
+    display: flex;
+    font-size: 0.8rem;
+    height: 100px;
+    justify-content: center;
+    margin: 0 20px;
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.3);
+    width: 100px;
+  }
+
+  [ class = 'Ordinary Drink-btn-filter' ] {
+    align-items: flex-end;
+    background-color: transparent;
+    background-image: url('../images/ordinaryDrink.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 95% 75%;
+    border: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-size: 0.8rem;
+    height: 100px;
+    justify-content: center;
+    margin: 0 20px;
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.3);
+    width: 100px;
+  }
+
+  .Cocktail-btn-filter {
+    align-items: flex-end;
+    background-color: transparent;
+    background-image: url('../images/cocktail.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 95% 70%;
+    border: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-size: 0.8rem;
+    height: 100px;
+    justify-content: center;
+    margin: 0 20px;
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.3);
+    width: 100px;
+  }
+
+  .Shake-btn-filter {
+    align-items: flex-end;
+    background-color: transparent;
+    background-image: url('../images/shake.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 95% 75%;
+    border: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-size: 0.8rem;
+    height: 100px;
+    justify-content: center;
+    margin: 0 20px;
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.3);
+    width: 100px;
+  }
+
+  [ class = 'Other / Unknown-btn-filter' ] {
+    align-items: flex-end;
+    background-color: transparent;
+    background-image: url('../images/otherDrink.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 95% 70%;
+    border: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-size: 0.8rem;
+    height: 100px;
+    justify-content: center;
+    margin: 0 20px;
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.3);
+    width: 100px;
+  }
+
+  .Cocoa-btn-filter {
+    align-items: flex-end;
+    background-color: transparent;
+    background-image: url('../images/cocoaDrink.svg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 95% 75%;
+    border: none;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-size: 0.8rem;
+    height: 100px;
+    justify-content: center;
+    margin: 0 20px;
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.3);
+    width: 100px;
+  }
+}
